@@ -1,17 +1,26 @@
 # Traffic-XGB
 
-A Jupyter Notebook used to conduct Exploratory Data Analysis and Time Series Forecasting on traffic volume for westbound I-94, a major interstate highway in the US that connects Minneapolis and St Paul, Minnesota. Utilized an Extreme Gradient Boosting (XGBoost) model with Mean Absolute Percentage Error (MAPE) as the scoring method. Cross validation splits were generated with TimeSeriesSplit and hyperparameter tuning was conducted with GridSearchCV.
+A Jupyter Notebook used to conduct exploratory data analysis and time series forecasting on traffic volume for westbound I-94, a major interstate highway in the US that connects Minneapolis and St Paul, Minnesota. Utilized an Extreme Gradient Boosting (XGBoost) model with Mean Absolute Percentage Error (MAPE) as the scoring method. Cross validation splits were generated with TimeSeriesSplit and hyperparameter tuning was conducted with GridSearchCV.
 
 ## Data Source
 
 The dataset used in this notebook was taken from the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume). The data was collected by the Minnesota Department of Transportation (MnDOT) from 2012 to 2018 at a station roughly midway between the two cities. The descriptions of included variables are as follows.
 
-- holiday                Categorical    US National holidays plus regional holiday, Minnesota State Fair
-- temp                   Numeric        Average temp in kelvin
-- rain_1h                Numeric        Amount in mm of rain that occurred in the hour
-- snow_1h                Numeric        Amount in mm of snow that occurred in the hour
-- clouds_all             Numeric        Percentage of cloud cover
-- weather_main           Categorical    Short textual description of the current weather
-- weather_description    Categorical    Longer textual description of the current weather
-- date_time              DateTime       Hour of the data collected in local CST time
-- traffic_volume         Numeric        Hourly I-94 ATR 301 reported westbound traffic volume
+- `holiday`               - (Categorical)   : US National holidays plus regional holiday, Minnesota State Fair
+- `temp`                  - (Numeric)       : Average temp in kelvin
+- `rain_1h`               - (Numeric)       : Amount in mm of rain that occurred in the hour
+- `snow_1h`               - (Numeric)       : Amount in mm of snow that occurred in the hour
+- `clouds_all`            - (Numeric)       : Percentage of cloud cover
+- `weather_main`          - (Categorical)   : Short textual description of the current weather
+- `weather_description`   - (Categorical)   : Longer textual description of the current weather
+- `date_time`             - (DateTime)      : Hour of the data collected in local CST time
+- `traffic_volume`        - (Numeric)       : Hourly I-94 ATR 301 reported westbound traffic volume
+
+## Additional Resources
+
+This project was made possible with the help of the following openly-available learning resources.
+
+- [Rob Mulla's Two-Part Series on XGBoost](https://www.youtube.com/@robmulla) available on his YouTube Channel. This focuses more on the applications of the model in practice.
+- [Josh Starmer's Four-Part Series on the XGBoost Algorithm](https://www.youtube.com/@statquest) available on his YouTube Channel. This focuses more on the theoretical aspect of general machine learning and also the mathematical elements of XGBoost.
+- [Previous Example of Using XGBoost with this Dataset](https://www.kaggle.com/code/dannyperez014/project-06-interstate-i-94-traffic-forecasting). This example leans more toward feature engineering and exploratory data analysis of given variables. However it lacks the use of cross validation.
+- [Dataset Kaggle Link](https://www.kaggle.com/datasets/anshtanwar/metro-interstate-traffic-volume/data). This is the original link with which I first found the dataset.
