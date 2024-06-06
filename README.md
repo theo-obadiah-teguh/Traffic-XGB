@@ -24,3 +24,7 @@ This project was made possible with the help of the following openly-available l
 - [Josh Starmer's Four-Part Series on the XGBoost Algorithm](https://www.youtube.com/@statquest) available on his YouTube Channel. This focuses more on the theoretical aspect of general machine learning and also the mathematical elements of XGBoost.
 - [Previous Example of Using XGBoost with this Dataset](https://www.kaggle.com/code/dannyperez014/project-06-interstate-i-94-traffic-forecasting). This example leans more toward feature engineering and exploratory data analysis of given variables. However it lacks the use of cross validation.
 - [Dataset Kaggle Link](https://www.kaggle.com/datasets/anshtanwar/metro-interstate-traffic-volume/data). This is the original link with which I first found the dataset.
+
+## Remarks
+
+This project was probably my first time training and using a openly available and powerful model like XGBoost. I learned concepts such as model training, train-test splitting for time series data, L1 and L2 regularization, data visualization with correlation matrixes, time series boxplots and so on.
