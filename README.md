@@ -27,4 +27,4 @@ This project was made possible with the help of the following openly-available l
 
 ## Remarks
 
-This project was probably my first time training and using a openly available and powerful model like XGBoost. I learned concepts such as model training, train-test splitting for time series data, L1 and L2 regularization, data visualization with correlation matrixes, boxplots, time series lineplots, and so on.
+This project was probably my first time training and using a openly available and powerful model like XGBoost. I learned concepts such as model training, train-test splitting for time series data, L1 and L2 regularization, data visualization with correlation matrixes, boxplots, time series lineplots, and so on. Here, note that TimeSeriesSplit must be used in order to avoid a data leak, where we would train with future data whilst testing on past data during cross validation. This is a mistake that most people fall into when following online tutorials.
