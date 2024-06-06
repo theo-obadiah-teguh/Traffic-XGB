@@ -27,4 +27,4 @@ This project was made possible with the help of the following openly-available l
 
 ## Remarks
 
-This project was probably my first time training and using a openly available and powerful model like XGBoost. I learned concepts such as model training, train-test splitting for time series data, L1 and L2 regularization, data visualization with correlation matrixes, time series boxplots and so on.
+This project was probably my first time training and using a openly available and powerful model like XGBoost. I learned concepts such as model training, train-test splitting for time series data, L1 and L2 regularization, data visualization with correlation matrixes, time series boxplots, and so on.
