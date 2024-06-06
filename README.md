@@ -1,6 +1,6 @@
 # Traffic-XGB
 
-A Jupyter Notebook used to conduct exploratory data analysis and time series forecasting on traffic volume for westbound I-94, a major interstate highway in the US that connects Minneapolis and St Paul, Minnesota. Utilized an Extreme Gradient Boosting (XGBoost) model with Mean Absolute Percentage Error (MAPE) as the scoring method. Cross validation splits were generated with TimeSeriesSplit and hyperparameter tuning was conducted with GridSearchCV.
+A Jupyter Notebook used to conduct exploratory data analysis and time series forecasting on traffic volume for westbound I-94, a major interstate highway in the US that connects Minneapolis and St Paul, Minnesota. Here, we developed an Extreme Gradient Boosting (XGBoost) model with Mean Absolute Percentage Error (MAPE) as the scoring method. Cross validation splits were generated with TimeSeriesSplit and hyperparameter tuning was conducted with GridSearchCV.
 
 ## Data Source
 
